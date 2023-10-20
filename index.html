@@ -1,0 +1,29 @@
+{% extends 'navigation.html' %} {% load static %} {% block body %}
+
+<head>
+  <style media="screen">
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+
+        body {
+          background-image: url('{% static "images/Background.jpg" %}');
+          background-size: cover;
+          background-repeat: no-repeat;
+          font-family: "Poppins", sans-serif;
+        }
+
+        .display{
+        font-size: 2em;
+        margin-left: 150px;
+        }
+
+  </style>
+</head>
+<body>
+  <br>
+  <br><br><br><br><br><br><br><br>
+
+  <div class="intro">
+    <a class="display">"A hospital alone shows what war is."</a>
+  </div>
+</body>
+{% endblock%}
